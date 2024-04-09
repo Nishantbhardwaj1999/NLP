@@ -53,7 +53,7 @@ def main():
                 st.success(f"Predicted Category: {category}")
 
         except Exception as e:
-            st.error(f"Error: {e}. Please try again with a different file.")
+            st.error(f"Error: {e}. Please try again with a different files.")
 
 if __name__ == "__main__":
     main()
